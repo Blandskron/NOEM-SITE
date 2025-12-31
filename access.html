@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NOEM · Acceso</title>
+  <meta name="description" content="El recurso existe. El contexto decide." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="index.html">NOEM</a>
+    <nav class="nav">
+      <a href="fragments.html">Fragmentos</a>
+      <a href="latency.html">Latencia</a>
+      <a class="active" href="access.html">Acceso</a>
+      <a href="about.html">Acerca</a>
+      <a class="ext" href="https://github.com/Blandskron/NOEM" target="_blank" rel="noreferrer">Repo</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h1 class="page-title">Acceso</h1>
+    <p class="muted">El recurso existe. No está disponible para este contexto.</p>
+
+    <section class="panel">
+      <p class="mono big" id="accessCode">404</p>
+      <p class="mono" id="accessMsg">
+        El recurso existe.<br>
+        No está disponible para este contexto.
+      </p>
+    </section>
+
+    <div class="actions">
+      <button class="btn" id="btnTry">Reintentar</button>
+      <a class="btn ghost" href="https://github.com/Blandskron/NOEM" target="_blank" rel="noreferrer">Abrir repositorio</a>
+    </div>
+
+    <p class="hint muted">A veces el contexto cambia sin que lo notes.</p>
+  </main>
+
+  <footer class="foot">
+    <span class="muted">NOEM · control de acceso</span>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NOEM · Latencia</title>
+  <meta name="description" content="La espera como umbral." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="index.html">NOEM</a>
+    <nav class="nav">
+      <a href="fragments.html">Fragmentos</a>
+      <a class="active" href="latency.html">Latencia</a>
+      <a href="access.html">Acceso</a>
+      <a href="about.html">Acerca</a>
+      <a class="ext" href="https://github.com/Blandskron/NOEM" target="_blank" rel="noreferrer">Repo</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h1 class="page-title">Latencia</h1>
+    <p class="muted">No es un error. Es una capa.</p>
+
+    <section class="latency">
+      <div class="meter">
+        <div class="bar" id="latBar" aria-hidden="true"></div>
+      </div>
+      <p class="latText" id="latText">Esperando…</p>
+      <p class="muted small">Si la respuesta tarda, no significa que no exista.</p>
+    </section>
+
+    <section class="panel">
+      <p class="mono">
+        [00:00:01] Request received<br>
+        [00:00:01] Context stable<br>
+        <span class="muted">[00:00:??] Response released</span>
+      </p>
+    </section>
+
+    <div class="actions">
+      <a class="btn" href="fragments.html">Ir a Fragmentos</a>
+      <a class="btn ghost" href="https://github.com/Blandskron/NOEM" target="_blank" rel="noreferrer">Repo</a>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <span class="muted">NOEM · umbral</span>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
